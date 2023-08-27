@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container button {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: gray solid 0.1px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25px 25px 25px;
+  grid-template-rows: 25px 25px 25px;
+  column-gap: 0px;
+  row-gap: 0px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.game {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.game-board {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.game-info {
+  width: 50%;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.current {
+  color: red;
+  pointer-events: none;
+}
